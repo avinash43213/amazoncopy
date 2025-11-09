@@ -123,3 +123,102 @@ font-size: 0.8rem;
    text-decoration: none;
    color: white;
 }
+
+/** hero area **/
+
+.hero-area{
+height: 400px;
+width: 1vp;
+background-image: url("amazon-hero.jpg");
+background-size: cover;
+color: white;
+}
+.hero-area-msg{
+    height: 50px;
+    background-color: white;
+    color: #0f1111;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 0.85rem;
+    position: relative;
+    top: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area-msg a{
+    color:aqua;
+    text-decoration: none;
+}
+
+/** shop area**/
+
+.shop-area{
+background-color: grey;
+height: 800px;
+width: 1vp;
+color: #0f1111;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.div1{
+    background-color: white;
+    color: #0f1111;
+    height: 380px;
+    width: 23%;
+    margin: 10px;
+}
+.div1 h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:large;
+}
+.div1 img{
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    margin-left: 20px;
+}
+.div1 a{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.foot-panel{
+    background-color: #232f3b;
+    height: 40px;
+    width: 1vp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel a{
+    color: white;
+    text-decoration: none;
+}
+.footer-panel2{
+    height: 300px;
+    width: 1vp;
+    background-color: #1c1a1c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly
+}
+ul p{
+    display: block;
+    margin-top: 20px;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
